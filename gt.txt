@@ -1,0 +1,4 @@
+图片文字识别测试 2026-09-10
+The quick brown fox jumps over the lazy dog
+订单编号：A1B2C3D4  金额：￥1234.56
+准确率评估 Accuracy = 98.75%
