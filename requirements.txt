@@ -1,0 +1,17 @@
+# 图片文字识别（OCR）与准确率评估 —— 运行时依赖
+#
+# 安装（推荐国内镜像）：
+#   pip install -r requirements.txt
+#   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# OCR 引擎。会连带安装 onnxruntime、opencv-python、numpy、Shapely 等
+rapidocr-onnxruntime>=1.2
+
+# --demo 合成测试图片、图形界面显示预览时用到
+pillow>=9.0
+
+# ---------------------------------------------------------------
+# 仅打包成 exe 时需要（平时跑源码用不到，故不默认安装）：
+#   pip install pyinstaller
+# 或直接双击 build.bat，脚本会自动检查并安装
+# ---------------------------------------------------------------

@@ -1,0 +1,21 @@
+# 打包产物（约 400 MB，不随源码分发，需要时运行 build.bat 重新生成）
+dist/
+build/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# PyInstaller 生成的日志
+warn-*.txt
+xref-*.html
